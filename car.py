@@ -17,6 +17,13 @@ class Car(Automobile):
         # Инициализировать атрибут __doors.
         self.__doors = doors
 
+    # Метод set_doors является методом-
+    # -получателем атрибута __doors
+
+    def set_doors(self, doors):
+        self.__doors = doors
+
+
     # Метод get_doors является методом-
     # -получателем атрибута __doors
 
