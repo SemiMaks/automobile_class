@@ -13,7 +13,7 @@ class Car(Automobile):
         # требуемые элементы. Тут так же
         # передаём self в качестве аргумента.
 
-        Automobile.__init__(self, make, model, mileage, price, doors)
+        Automobile.__init__(self, make, model, mileage, price)
         # Инициализировать атрибут __doors.
         self.__doors = doors
 
@@ -22,7 +22,6 @@ class Car(Automobile):
 
     def set_doors(self, doors):
         self.__doors = doors
-
 
     # Метод get_doors является методом-
     # -получателем атрибута __doors
